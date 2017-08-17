@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E875AE71F4411E8003A9B76 /* ImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E875AE61F4411E8003A9B76 /* ImageModel.m */; };
+		7E875AEA1F4418AC003A9B76 /* U.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E875AE91F4418AC003A9B76 /* U.m */; };
+		7E875AF01F442D3E003A9B76 /* test_response.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7E875AEF1F442D3E003A9B76 /* test_response.txt */; };
 		7EE3DF9A1F43FB03000FF246 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE3DF991F43FB03000FF246 /* main.m */; };
 		7EE3DF9D1F43FB03000FF246 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE3DF9C1F43FB03000FF246 /* AppDelegate.m */; };
 		7EE3DFA01F43FB03000FF246 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE3DF9F1F43FB03000FF246 /* ViewController.m */; };
 		7EE3DFA31F43FB03000FF246 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EE3DFA11F43FB03000FF246 /* Main.storyboard */; };
 		7EE3DFA51F43FB03000FF246 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EE3DFA41F43FB03000FF246 /* Assets.xcassets */; };
 		7EE3DFA81F43FB03000FF246 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EE3DFA61F43FB03000FF246 /* LaunchScreen.storyboard */; };
+		8BA5848820CB543593898890 /* libPods-EstafetaImageSearch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD708D1F8296EB35EA8224F /* libPods-EstafetaImageSearch.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E875AE51F4411E8003A9B76 /* ImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageModel.h; sourceTree = "<group>"; };
+		7E875AE61F4411E8003A9B76 /* ImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageModel.m; sourceTree = "<group>"; };
+		7E875AE81F4418AC003A9B76 /* U.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = U.h; sourceTree = "<group>"; };
+		7E875AE91F4418AC003A9B76 /* U.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = U.m; sourceTree = "<group>"; };
+		7E875AEE1F441A8D003A9B76 /* S.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = S.h; sourceTree = "<group>"; };
+		7E875AEF1F442D3E003A9B76 /* test_response.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test_response.txt; sourceTree = "<group>"; };
 		7EE3DF951F43FB03000FF246 /* EstafetaImageSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EstafetaImageSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE3DF991F43FB03000FF246 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7EE3DF9B1F43FB03000FF246 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +36,9 @@
 		7EE3DFA41F43FB03000FF246 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EE3DFA71F43FB03000FF246 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EE3DFA91F43FB03000FF246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBF7C466E1066BE734A3249C /* Pods-EstafetaImageSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EstafetaImageSearch.release.xcconfig"; path = "Pods/Target Support Files/Pods-EstafetaImageSearch/Pods-EstafetaImageSearch.release.xcconfig"; sourceTree = "<group>"; };
+		D49602D6FBC0E447BCA7D5DC /* Pods-EstafetaImageSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EstafetaImageSearch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EstafetaImageSearch/Pods-EstafetaImageSearch.debug.xcconfig"; sourceTree = "<group>"; };
+		DAD708D1F8296EB35EA8224F /* libPods-EstafetaImageSearch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EstafetaImageSearch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +46,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BA5848820CB543593898890 /* libPods-EstafetaImageSearch.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E875AF11F446438003A9B76 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				7EE3DFA61F43FB03000FF246 /* LaunchScreen.storyboard */,
+				7EE3DFA11F43FB03000FF246 /* Main.storyboard */,
+			);
+			name = Layouts;
+			sourceTree = "<group>";
+		};
 		7EE3DF8C1F43FB03000FF246 = {
 			isa = PBXGroup;
 			children = (
 				7EE3DF971F43FB03000FF246 /* EstafetaImageSearch */,
 				7EE3DF961F43FB03000FF246 /* Products */,
+				CB6FC84391FF8B40CA881E39 /* Pods */,
+				96763ED584F4D3044245F192 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +83,17 @@
 		7EE3DF971F43FB03000FF246 /* EstafetaImageSearch */ = {
 			isa = PBXGroup;
 			children = (
+				7E875AF11F446438003A9B76 /* Layouts */,
+				7E875AEE1F441A8D003A9B76 /* S.h */,
+				7E875AE81F4418AC003A9B76 /* U.h */,
+				7E875AE91F4418AC003A9B76 /* U.m */,
+				7E875AE51F4411E8003A9B76 /* ImageModel.h */,
+				7E875AE61F4411E8003A9B76 /* ImageModel.m */,
 				7EE3DF9B1F43FB03000FF246 /* AppDelegate.h */,
 				7EE3DF9C1F43FB03000FF246 /* AppDelegate.m */,
 				7EE3DF9E1F43FB03000FF246 /* ViewController.h */,
 				7EE3DF9F1F43FB03000FF246 /* ViewController.m */,
-				7EE3DFA11F43FB03000FF246 /* Main.storyboard */,
 				7EE3DFA41F43FB03000FF246 /* Assets.xcassets */,
-				7EE3DFA61F43FB03000FF246 /* LaunchScreen.storyboard */,
 				7EE3DFA91F43FB03000FF246 /* Info.plist */,
 				7EE3DF981F43FB03000FF246 /* Supporting Files */,
 			);
@@ -75,8 +104,26 @@
 			isa = PBXGroup;
 			children = (
 				7EE3DF991F43FB03000FF246 /* main.m */,
+				7E875AEF1F442D3E003A9B76 /* test_response.txt */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96763ED584F4D3044245F192 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAD708D1F8296EB35EA8224F /* libPods-EstafetaImageSearch.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB6FC84391FF8B40CA881E39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D49602D6FBC0E447BCA7D5DC /* Pods-EstafetaImageSearch.debug.xcconfig */,
+				BBF7C466E1066BE734A3249C /* Pods-EstafetaImageSearch.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +133,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7EE3DFAC1F43FB03000FF246 /* Build configuration list for PBXNativeTarget "EstafetaImageSearch" */;
 			buildPhases = (
+				9BBC3F18949F31BFD27892BC /* [CP] Check Pods Manifest.lock */,
 				7EE3DF911F43FB03000FF246 /* Sources */,
 				7EE3DF921F43FB03000FF246 /* Frameworks */,
 				7EE3DF931F43FB03000FF246 /* Resources */,
+				2A5C2CF7479D3C001359A924 /* [CP] Embed Pods Frameworks */,
+				08DF7BCC94AEF711637AC5F4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -112,6 +162,11 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = WDUBMTZXG4;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -139,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EE3DFA81F43FB03000FF246 /* LaunchScreen.storyboard in Resources */,
+				7E875AF01F442D3E003A9B76 /* test_response.txt in Resources */,
 				7EE3DFA51F43FB03000FF246 /* Assets.xcassets in Resources */,
 				7EE3DFA31F43FB03000FF246 /* Main.storyboard in Resources */,
 			);
@@ -146,14 +202,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08DF7BCC94AEF711637AC5F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EstafetaImageSearch/Pods-EstafetaImageSearch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A5C2CF7479D3C001359A924 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EstafetaImageSearch/Pods-EstafetaImageSearch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BBC3F18949F31BFD27892BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EstafetaImageSearch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7EE3DF911F43FB03000FF246 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E875AEA1F4418AC003A9B76 /* U.m in Sources */,
 				7EE3DFA01F43FB03000FF246 /* ViewController.m in Sources */,
 				7EE3DF9D1F43FB03000FF246 /* AppDelegate.m in Sources */,
 				7EE3DF9A1F43FB03000FF246 /* main.m in Sources */,
+				7E875AE71F4411E8003A9B76 /* ImageModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +382,7 @@
 		};
 		7EE3DFAD1F43FB03000FF246 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D49602D6FBC0E447BCA7D5DC /* Pods-EstafetaImageSearch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WDUBMTZXG4;
@@ -280,11 +390,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jpavel.EstafetaImageSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7EE3DFAE1F43FB03000FF246 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBF7C466E1066BE734A3249C /* Pods-EstafetaImageSearch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WDUBMTZXG4;
@@ -292,6 +404,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jpavel.EstafetaImageSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -314,6 +427,7 @@
 				7EE3DFAE1F43FB03000FF246 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
